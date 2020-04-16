@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/${_PROJECT_ID}/tokra:$TAG_NAME', '.' ]
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/(_PROJECT_ID}/tokra:$TAG_NAME']
+images: ['gcr.io/${_PROJECT_ID}/tokra:$TAG_NAME']
