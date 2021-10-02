@@ -1,6 +1,6 @@
 # docker-puppeteer    
 
-Docker container that installed Chromium and [puppeteer](https://github.com/puppeteer/puppeteer).
+Docker container with Chromium, node.js, and [puppeteer](https://github.com/puppeteer/puppeteer).
 
 **NOTE:** Check the [Dockerfile](./Dockerfile) to see the current node version.
 
