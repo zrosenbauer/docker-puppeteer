@@ -6,14 +6,14 @@ Docker container that installed Chromium and [puppeteer](https://github.com/pupp
 
 ## Usage
 
-`docker pull bluenovaio/docker-puppeteer:v2.0.0`
+`docker pull bluenovaio/docker-puppeteer:v1.0.0`
 
 ## Example Use
 
 This can be used to run puppeteer in Docker, usually used when snapshotting create-react-app applications.
 
 ```dockerfile
-FROM bluenova/docker-puppeteer:v2.0.0
+FROM bluenova/docker-puppeteer:v1.0.0
 
 RUN yarn
 RUN yarn build
